@@ -19,7 +19,6 @@ export class ListComponent {
 
   onDeletedCharacter(id?: string): void {
     if (!id) return;
-    console.log(id);
     this.onDelete.emit(id);
   }
 }
